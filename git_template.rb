@@ -14,5 +14,6 @@ EOGIT
 run "touch tmp/.gitignore log/.gitignore vendor/.gitignore"
 run "cp config/database.yml config/example_database.yml"
 
-git :add => ".", :commit => "-m 'added gitignore files and setup homepage welcome#index'"
+git :add => "."
+git :commit => "-m 'added gitignore files and setup homepage welcome#index'"
 
